@@ -61,4 +61,15 @@
 	  /* Alert the copied text */
 	  $('#'+id).css("color","RED");
 	}
+	
+	function calcular(){
+		var outraData = new Date();
+		
+		var timer = $('#timer').val();
+		var hours = timer.split(':');
+		
+		outraData.setHours(hours[0]+ 11, hours[1], 0);
+		const dataAmigavel = outraData.toLocaleString('pt-BR', {timeZone: 'America/Sao_Paulo'});
+		$('#result').html(dataAmigavel);
+	}
 </script>

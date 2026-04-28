@@ -13,9 +13,14 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">
+        <a class="nav-link" href="./">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Horários</span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" href="inter.php">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>InterJornada</span></a>
       </li>
 
       <!-- Divider ->
