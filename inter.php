@@ -48,9 +48,8 @@ require_once 'controller.php';
 							<!-- Circle Buttons (Default) -->
 							<form class="user">
 								<div class="form-group">
-									<input type="time" class="form-control form-control-user"
-										id="timer" aria-describedby="timerHelp"
-										placeholder="Enter Timer InterJornada...">
+									<input type="datetime-local" class="form-control form-control-user" 
+									    id="timer" aria-describedby="timerHelp">
 								</div>				
 								<a href="#" id="calcular" onclick="calcular()" class="btn btn-primary btn-icon-split btn-lg col-xl-12 col-md-12">
 									<span class="text">calcular</span>
